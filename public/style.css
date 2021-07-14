@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cryptoList {
+    display: flex;
+}
+
+.cryptoList div {
+    margin: auto;
+}
+
+.cryptoItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.cryptoItem img, .cryptoItem p {
+    margin: auto;
+}
+
+.cryptoDescription {
+    max-width: 50%;
+}
