@@ -34,7 +34,7 @@ const requestOptions = {
 //     res.sendFile(path.join(__dirname, 'public/index.html'));
 // });
 
-app.use(express.static('public'))
+app.use(express.static('docs'))
 
 let products = [];
 
