@@ -180,7 +180,7 @@ var check = [
 
 
 document.querySelector('#refreshCrypto').addEventListener('click', ()=>{
-    fetch('http://localhost:3000/products')
+    fetch('/products')
     .then(data => {
         return data.json();
     })
