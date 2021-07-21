@@ -21,6 +21,10 @@ body {
     margin: auto;
 }
 
+.cryptoItem img {
+    max-width: 20px;
+}
+
 .cryptoDescription {
     max-width: 50%;
 }
