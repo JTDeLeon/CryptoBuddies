@@ -3,7 +3,7 @@ console.log('app is live');
 const rp = require('request-promise');
 const express = require('express')
 const path = require('path');
-const port = 3000;
+const port = process.env.PORT || 5000;
 const app = express()
 
 let bodyParser = require('body-parser');
